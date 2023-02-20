@@ -29,7 +29,9 @@
   <body>
     <div>
       <nav class="nav collapsible">
-        <a class="nav__brand" href="/"><img src="images/logo.svg" alt="" /></a>
+        <a aria-label="moshify" class="nav__brand" href="/">
+          <img src="images/logo.svg" alt="" />
+        </a>
         <svg class="icon icon--white nav__toggler">
           <use href="images/sprite.svg#menu"></use>
         </svg>
@@ -69,7 +71,12 @@
         </p>
       </div>
       <div class="input-group">
-        <input type="text" class="input" placeholder="Enter domina here" />
+        <input
+          aria-label="Domain Label"
+          type="text"
+          class="input"
+          placeholder="Enter domina here"
+        />
         <button class="btn btn--accent">
           <svg class="icon icon--white">
             <use href="images/sprite.svg#search"></use>
